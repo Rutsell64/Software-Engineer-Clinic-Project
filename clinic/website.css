@@ -1,0 +1,924 @@
+html, body {
+    height: 100%;
+	background: #89CFF0;  
+}
+
+#Login_or_Signup{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #14557b,#7fcec5);
+}
+
+ 
+#top{
+background: white;
+margin:-8px;
+padding-top:10px;
+}
+
+#clinic_name{
+	font-size: 18pt;
+	font-family: Tahoma, sans-serif;
+	font-weight:bold;
+	width:400px;
+    padding: 15px;
+	margin-left:60px;
+	position: relative; 
+	top:20px;
+	background:white;
+}
+
+#clinic_name > a{
+	font-size: 18pt;
+	font-family: Tahoma, sans-serif;
+	font-weight:bold;
+	width:400px;
+    padding: 15px;
+	margin-left:60px;
+	position: relative; 
+	top:20px;
+	background:white;
+}
+#redirect_links{
+	margin-left:180px;
+	background: white;
+	
+}
+
+#Mission_Statement_link{
+	position: relative; 
+	bottom: 85px;         
+    left: 1000px; 
+	background-color: white;
+
+}
+
+#Whats_New_link{
+	position: relative; 
+	bottom: 85px;         
+    left: 1050px; 
+	background-color: white;
+}
+
+#Services_link{
+    position: relative; 
+	bottom: 85px;         
+    left: 1100px;
+	background-color: white;
+}
+		
+#About_Us_link{
+	position: relative; 
+	bottom: 85px;         
+    left: 1150px;
+	background-color: white;
+}
+
+#Contact_Us_link{
+	position: relative; 
+	bottom: 85px;         
+    left: 1200px; 
+	background-color: white;
+}
+
+#Login_Patient{
+	position: relative; 
+	bottom: 50px;         
+    left: 1340px; 
+	background-color: white;
+	font-size: 12pt;
+	font-family: Tahoma, sans-serif;
+	width: 220px;
+	padding: 15px;
+}
+
+#Login_Organization{
+	position: relative; 
+	bottom: 105px;         
+    left: 83%; 
+	background-color: white;
+	font-size: 12pt;
+	font-family: Tahoma, sans-serif;
+	width: 220px;
+}
+
+#Login_Patient > a, #Login_Organization > a{
+	background-color: white;
+}
+
+
+#main_image > img{
+	width: 100.8%;
+	height: 600px;
+	margin:-8px;
+}
+
+
+#Mission_Statement {
+  border-radius: 25px;
+  border: 2px solid ;
+  padding: 30px;
+  width: 560px;
+  height: 220px;
+  background:white;
+  margin-top:80px;
+  position: relative;        
+  left:4.5%;
+}
+
+#Mission_Statement > h1{
+  background:white;
+  color: #0047AB;
+  text-decoration: underline;
+  text-align:center;
+}
+
+#Mission_Statement > p{
+  background:white;
+  text-align:center;
+  font-size:18pt;
+}
+
+#Vision_Statement {
+  border-radius: 25px;
+  border: 2px solid ;
+  padding: 30px;
+  width: 560px;
+  height: 220px;
+  background:white;
+  position: relative; 
+  bottom: 284px;         
+  left:62.5%;
+}
+
+#Vision_Statement > h1{
+  background:white;
+  color: #0047AB;
+  text-decoration: underline;
+  text-align:center;
+}
+
+#Vision_Statement > p{
+  background:white;
+  text-align:center;
+  font-size:18pt;
+}
+
+#Core_Values {
+  border-radius: 25px;
+  border: 2px solid ;
+  padding: 15px;
+  padding-bottom:35px;
+  width: 250px;
+  height: 220px;
+  background:white;
+  margin-top:80px;
+  position: relative; 
+  bottom: 643px;         
+  left:42.5%;
+}
+
+#Core_Values > h1{
+  background:white;
+  color: #0047AB;
+  text-decoration: underline;
+  text-align:center;
+
+}
+
+#Core_Values > ul > li, #Core_Values > ul {
+  background:white;
+  text-align:left;
+  font-size:18pt;
+  list-style: circle inside;
+
+}
+
+hr.line{
+	border: 10px solid #002FA7;
+    border-radius: 5px;
+	position: relative; 
+    bottom: 560px;
+    margin:-8px;    
+}
+
+#Covid{
+	border: solid black;
+	width: 605px;
+	position: relative; 
+	left:220px;
+	bottom:480px;
+	text-align:center;
+	background:white;
+	padding-bottom:20px;
+}
+
+#Covid > h1{
+	color: #0047AB;
+	background:white;
+	font-size:23pt;
+	text-decoration: underline;
+}
+
+#Covid > a{
+	background:white;
+	font-size:15pt;
+	text-decoration: none;
+}
+
+#Whats_new{
+	border: solid black;
+	width: 605px;
+	position: relative; 
+	left:1030px;
+	bottom:1268px;
+	text-align:center;
+	background:white;
+	padding-bottom:56px;
+}
+
+#Whats_new > h1{
+	color: #0047AB;
+	background:white;
+	font-size:23pt;
+	text-decoration: underline;
+}
+
+#Whats_new > img{
+	width:605px;
+	height:500px;
+}
+
+#Whats_new > a{
+	
+	background:white;
+	font-size:15pt;
+	text-decoration: none;
+}
+
+hr.line2{
+	border: 10px solid #002FA7;
+    border-radius: 5px;
+	position: relative; 
+    bottom: 1185px;
+    margin:-8px;    
+}
+
+#Services{
+	border: solid black;
+	width: 605px;
+	height:500px;
+	position: relative; 
+	left:330px;
+	bottom:1094px;
+	text-align:center;
+	background:white;
+	
+}
+
+#Services > img{
+	width:602px;
+	height:505px;
+	position:relative;
+	left: 606px;
+	bottom:2px;
+}
+
+#Services > h1{
+	color: #0047AB;
+	position:relative;
+	bottom:495px;
+	background:white;
+	text-decoration: underline;
+}
+
+#Services > .Column1{
+	Position:relative;
+	bottom:499px;
+	left:84px;
+	background:white;
+	width:100px;
+}
+
+#Services > .Column2{
+	Position:relative;
+	bottom:845px;
+	left:261px;
+	background:white;
+	width:100px;
+}
+
+#Services > .Column3{
+	Position:relative;
+	bottom:1243px;
+	left:430px;
+	background:white;
+	width:100px;
+}
+
+#Insurances{
+	border: solid black;
+	width: 605px;
+	height:500px;
+	position: relative; 
+	left:935px;
+	bottom:1095px;
+	text-align:center;
+	background:white;
+	
+}
+
+#Insurances > img{
+	width:605px;
+	height:505px;
+	position:relative;
+	right: 606px;
+	bottom:2px;
+}
+
+#Insurances > h1{
+	color: #0047AB;
+	position:relative;
+	bottom:495px;
+	background:white;
+	text-decoration: underline;
+}
+
+#Insurances > .Column1{
+	Position:relative;
+	bottom:499px;
+	left:84px;
+	background:white;
+	width:100px;
+}
+
+#Insurances > .Column2{
+	Position:relative;
+	bottom:880px;
+	left:261px;
+	background:white;
+	width:100px;
+}
+
+#Insurances > .Column3{
+	Position:relative;
+	bottom:1295px;
+	left:430px;
+	background:white;
+	width:100px;
+}
+
+hr.line3{
+	border: 10px solid #002FA7;
+    border-radius: 5px;
+	position: relative; 
+    bottom: 995px;
+    margin:-8px;    
+}
+
+#About_us{
+  border-radius: 25px;
+  border: 2px solid ;
+  padding: 30px;
+  width: 1060px;
+  height: 410px;
+  background:white;
+  bottom:890px;
+  position: relative;        
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#About_us > h1{
+  background:white;
+  color: #0047AB;
+  text-decoration: underline;
+  text-align:center;
+}
+
+#About_us > p{
+  background:white;
+  text-align:left;
+  font-size:18pt;
+}
+
+#Contact_us{
+	position: relative;    
+	background: white;
+	margin:-8px;
+	padding-top:10px;
+	
+	height:140px;
+	bottom:780px;
+}
+
+#Contact_us > h1{
+	background:white;
+	color: #0047AB;
+	text-decoration: underline;
+	text-align:center;
+} 
+
+#Contact_us > p{
+	background:white;
+	text-align:center;
+	font-size:18pt;
+	padding-bottom:40px;
+}
+
+.Title{
+
+  position: relative;
+  top:300px;
+  left:110%;
+  color:white;
+  padding:6px;
+  font-size:18pt;
+  font-weight:bold;
+  border: 4px gray solid;
+  background-color: black;
+  text-align:center;
+  margin: 0;
+
+}
+
+.Form{
+	position: relative;
+	color:white;
+	top:310px;
+    left:110%;
+	font-weight:bold;
+
+}
+
+.submit{
+	position: relative;
+	color:white;
+	top:310px;
+    left:153%;
+	font-weight:bold;
+	
+}
+
+.main{
+	width: 350px;
+	height: 500px;
+	background: red;
+	overflow: hidden;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	/*This changes the color for the sign up title*/
+	color:white;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 46px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 6px;
+	/*Color for the background of where you type*/
+	background: white;
+	justify-content: center;
+	display: flex;
+	margin: 10px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	/*Color of the text in the sign up button and login button*/
+	color: white;
+	/*Color of the background of the sign up button and login button*/
+	background: black;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	/*Color that lights up when hovering over the sign up button and login button*/
+	background: gray;
+}
+.login{
+	height: 460px;
+	/*background color for login word*/
+	background: linear-gradient(to bottom, #14557b,#7fcec5);
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	/*Label for the login word color*/
+	color: white;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+
+select{
+	padding:1.5%;
+	margin-left:17%;
+}
+
+#forgot_info_link{
+	margin-left:6%;
+	text-decoration:none;
+	
+}
+
+#side_directory{
+	border: 2px solid;
+	width:15%;
+	margin-left:-1%;
+	margin-top:-1.2%;
+	height:100.7%;
+	background: white;
+}
+
+#side_clinic_name{
+	text-align:center;
+	font-family: Tahoma, sans-serif;
+	font-weight:bold;
+	padding-bottom:10%;
+}
+
+#side_profile{
+	text-align:left;
+	margin-left:13%;
+	text-decoration:none;
+	color:white;
+	padding-bottom:5%;
+}
+
+#side_make_appointment{
+	text-align:left;
+	margin-left:13%;
+	text-decoration:none;
+	color:white;
+	padding-bottom:5%;
+}
+
+#side_my_appointment{
+	text-align:left;
+	margin-left:13%;
+	text-decoration:none;
+	color:white;
+	padding-bottom:5%;
+}
+
+#side_logout{
+	text-align:left;
+	margin-left:13%;
+	text-decoration:none;
+	color:white;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#profile_border{
+	position: relative;        
+  margin-left:40%;
+  border-radius: 25px;
+  border: 2px solid;
+  width: 35%;
+  height: 700px;
+  bottom:900px;
+  background: #6097A3;
+}
+
+#profile_main_title{
+ text-align:center;
+ color:black;
+
+}
+
+#profile_image{
+ text-align:center;
+  
+}
+
+#profile_full_name{
+ text-align:center;
+ font-size:30pt;
+ font-weight:bold;
+ color:white;
+ padding-bottom:10px;
+}
+
+.profile_titles {
+ text-align:center;
+  color:black;
+  text-decoration:underline;
+}
+
+.profile_info{
+	color:white;
+	margin-left:32%;
+	font-size:14pt;
+}
+
+#patient_id_border{
+  position: relative;        
+  margin-left:80%;
+  border-radius: 25px;
+  border: 2px solid;
+  width: 18%;
+  height: 70px;
+  bottom:922px;
+  background: #6097A3;
+}
+
+#patient_id{
+	text-align:center;
+	font-size:17pt;
+	color: white;
+}
+
+#patient_make_appointment_border{
+	position: relative;        
+  margin-left:40%;
+  border-radius: 25px;
+  border: 2px solid;
+  width: 35%;
+  height: 700px;
+  bottom:900px;
+  background: #6097A3;
+}
+
+#doctor{
+	position:relative;
+	left:105px;
+	text-align:center;
+}
+
+#calender{
+	width:100px;
+	text-align:center;
+	height:15px;
+}
+
+#time{
+	position:relative;
+	left:132px;
+	text-align:center;
+}
+
+#make_appointment_button{
+	position:relative;
+	top:40px;
+}
+
+#Delete_Appointment_Border{
+	position: relative;
+	margin-left:34%;
+	bottom:90%;
+	border:solid black;
+	width:41%;
+	height: 700px;
+	overflow: auto;
+	 background: #6097A3;
+}
+
+#Delete_Button_Border{
+	position:relative;
+	
+	width:160px;
+	
+}
+
+#Delete_Button{
+	position:relative;
+	right:20px;
+	font-size:20pt;
+	background:black;
+	
+}
+
+#Doctor_Title{
+	position:relative;
+	right:40px;
+	font-size:20pt;
+}
+
+#Doctor_Name{
+	position:relative;
+	right:30px;
+	font-size:13pt;
+}
+
+#Date_Title{
+	position:relative;
+	right:2px;
+	font-size:20pt;
+}
+
+#Day{
+	font-size:13pt;
+}
+
+#Time_Title{
+	position:relative;
+	left:40px;
+	font-size:20pt;
+}
+
+#Time{
+	position:relative;
+	left:50px;
+	font-size:13pt;
+}
+
+
+#Service_Title{
+	position:relative;
+	left:80px;
+	font-size:20pt;
+}
+
+#Doctor_Occupation{
+	position:relative;
+	left:100px;
+	font-size:13pt;
+}
+
+#checkbox_border{
+	position:relative;
+	right:20px;
+	
+}
+
+#checkbox{
+	 width: 20px;
+     height: 20px;
+}
+
+#side_clinic_name{
+	text-align:center;
+	font-family: Tahoma, sans-serif;
+	font-weight:bold;
+	padding-bottom:10%;
+}
+
+#side_add_medication{
+	text-align:left;
+	margin-left:13%;
+	text-decoration:none;
+	color:white;
+	padding-bottom:5%;
+}
+
+#side_patient_medication_list{
+	text-align:left;
+	margin-left:13%;
+	text-decoration:none;
+	color:white;
+	padding-bottom:5%;
+}
+
+#side_doctor_appointment{
+	text-align:left;
+	margin-left:13%;
+	text-decoration:none;
+	color:white;
+	padding-bottom:5%;
+}
+
+.add_medication_title{
+	font-size:20pt;
+	color:black;
+	
+}
+
+#add_medication_button{
+	position:relative;
+	top:15px;
+}
+
+#patient_title{
+	position:relative;
+	top:165px;
+	color: black;
+}
+
+#enter_patient{
+	position:relative;
+	top:180px;
+}
+
+#check_patient_medication_button{
+	position:relative;
+	top:210px;
+}
+
+#medication_title{
+	position:relative;
+	right:40px;
+	font-size:20pt;
+}
+
+#medication{
+	position:relative;
+	right:35px;
+	font-size:13pt;
+}
+
+#dosages_title{
+	position:relative;
+	left:24px;
+	font-size:20pt;
+}
+
+#dosages{
+	position:relative;
+	left:50px;
+	font-size:13pt;
+}
+
+#instructions_title{
+	position:relative;
+	left:50px;
+	font-size:20pt;
+}
+
+#instructions{
+	position:relative;
+	left:90px;
+	font-size:13pt;
+}
+
+#retrieve_email_border{
+	position:relative;
+	left:13%;
+	top:22.5%;
+	border:solid black;
+	width:30%;
+	height:500px;
+	background: #6097A3;
+}
+
+#forgot_email_password{
+	text-align:center;
+	font-size:25pt;
+
+}
+
+#retrieve_password_border{
+	position:relative;
+	left:57%;
+	bottom:30%;
+	border:solid black;
+	width:30%;
+	height:500px;
+	background: #6097A3;
+}
+
+#center{
+	position:relative;
+	left:49%;
+	bottom:52%;
+	color:black;
+	z-index:1;
+}
